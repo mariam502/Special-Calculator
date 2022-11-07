@@ -1,0 +1,38 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container{
+margin: 10%;
+height: calc(40vw - 10px);
+width: calc(30vw - 10px);
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+  border: 10px solid red;
+}
+button{
+  width: 75px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: gray;
+  color:white;
+}
+.screen{
+  height:45px;
+	width:250px;
+ margin-left:29.5px;
+	border-radius:4px;
+	border-top:4px solid #828A9B;
+
+
+  background: #c1b1a2;
+  border-top:4px solid #ED586C;
+}
