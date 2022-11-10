@@ -49,3 +49,35 @@ button{
   border-top:4px solid #ED586C;
   color=#FFFFFF;
 }
+
+@media only screen and (max-width: 600px) {
+
+  button{
+    width: 17px;
+    height: 16px;
+    margin: 10px;
+    border: none;
+    background-color: gray;
+    color:white;
+    font-size: 8px;
+  }
+  p{
+    color:#FFFFFF;
+    font-size: 10px;}
+
+
+    .screen{
+      height:20px;
+    	width:125px;
+     margin-left:10px;
+    	border-radius:4px;
+    	border-top:4px solid #828A9B;
+      background: #c1b1a2;
+      border-top:2px solid #ED586C;
+      color=#FFFFFF;
+    }
+    .container{
+
+      border: 5px solid red;
+    }
+}
