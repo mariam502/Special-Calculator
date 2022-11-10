@@ -1,5 +1,5 @@
 
-const currentCalculation=document.querySelector("#current-calculation");
+/*const currentCalculation=document.querySelector("#current-calculation");
 const clear=document.querySelector("#clear");
 const numbers=document.querySelectorAll(".numbers");
 const point=document.querySelector("#point");
@@ -70,4 +70,33 @@ equal.addEventListener("click", () => {
          }[currentSign];
        }
   }
+});
+
+*/
+
+const keys=document.querySelector(".calc-keys");
+const display=document.getElementById("display");
+
+
+keys.addEventListener('click',(event)=>{
+  let target = event.target;
+  if(!target.matches('button')){
+     return false;
+     }
+
+  if(target.classList.contains('equal')){
+    try{
+      let result= eval(display.textContent);
+      display.textContent=result;
+    }catch(e){
+      if(e instanceof SyntaxError){
+        alert('You have an error, I will remove your operation');
+        display.textContent='';
+      }
+    }
+
+  }else if(target.classList.contains('clear')){
+    display.textContent="";
+  }else{
+   display.textContent += target.value;}
 });

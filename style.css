@@ -5,7 +5,10 @@ body{
   display: flex;
   justify-content: center;
 }
+p{
+  color=#FFFFFF;
 
+}
 
 .container{
 margin: 10%;
@@ -16,6 +19,17 @@ justify-content: center;
 flex-wrap: wrap;
 align-content: center;
   border: 10px solid red;
+}
+.calc-keys{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+p{
+  color:#FFFFFF;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 button{
   width: 75px;
@@ -31,8 +45,7 @@ button{
  margin-left:29.5px;
 	border-radius:4px;
 	border-top:4px solid #828A9B;
-
-
   background: #c1b1a2;
   border-top:4px solid #ED586C;
+  color=#FFFFFF;
 }
