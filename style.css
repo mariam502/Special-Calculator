@@ -81,7 +81,7 @@ button{
     .container{
 
       border: 5px solid red;
-      height: calc(55vw - 5px);
+      height: calc(60vw - 5px);
       width: calc(33vw - 5px);
       display: flex;
       justify-content: center;
