@@ -69,8 +69,8 @@ button{
 
     .screen{
       height:20px;
-    	width:125px;
-     margin-left:10px;
+    	width:100px;
+     margin-left:8px;
     	border-radius:4px;
     	border-top:4px solid #828A9B;
       background: #c1b1a2;
@@ -81,8 +81,8 @@ button{
     .container{
 
       border: 5px solid red;
-      height: calc(60vw - 5px);
-      width: calc(33vw - 5px);
+      height: calc(64vw - 10px);
+      width: calc(33vw - 10px);
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
